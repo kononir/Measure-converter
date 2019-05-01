@@ -1,0 +1,40 @@
+#measure-converter {
+    margin: 130px auto;
+    text-align: center;
+}
+
+#input-area {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    background-color: #BD85FF;
+    border: 5px solid silver;
+    border-radius: 10px;
+}
+
+#input-area label {
+    float: left;
+    color: white;
+}
+
+#input-field {
+    clear:both; 
+    text-align: right;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+#input-field input, select {
+    width: 30%;
+}
+
+#input-field input, select, #measure-converter button {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#measure-converter button:hover {
+    background-color: lightcoral;
+}
+
